@@ -1,0 +1,9 @@
+node_modules
+package-lock.json 
+*.log
+*.csv
+*.gz
+log/
+
+.env
+
