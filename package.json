@@ -1,0 +1,17 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Alpha portofolio",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn run dev\" \"cd web && yarn run dev\""
+  },
+  "repository": "https://github.com/mohamedabdifitah/portofolio.git",
+  "author": "mohamedabdifitah <learntecnology30@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  },
+  "dependencies": {}
+}
