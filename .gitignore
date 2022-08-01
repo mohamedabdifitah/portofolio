@@ -4,6 +4,6 @@ package-lock.json
 *.csv
 *.gz
 log/
-
+public/images
 .env
 
