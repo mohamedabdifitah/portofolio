@@ -10,27 +10,35 @@ const Intro = () =>{
     <section className="intro">
      <div className="introduction">
       <p className="intro-text"> Asc My Name is Moh'ed Abdifitah Ahmed</p>
-      <button>
-       Hire Me 
-      </button>
-      <button>
-        Download resume
-      </button>
-      <button>
-        <BsGithub />
-      </button>
-      <button>
-        <BsInstagram />
-      </button>
-      <button>
-        <SiUpwork />
-      </button>
-      <button>
-        <SiFiverr />
-      </button>
+      <div className='contact_link'>
+        <button >
+          Hire Me 
+        </button>
+        <button>
+          Download resume
+        </button>
+      </div>
+      
+      
+
+    
       
       
      </div>
+      <div className='quick_link'>
+          <button>
+            <BsGithub />
+          </button>
+          <button>
+            <BsInstagram />
+          </button>
+          <button>
+            <SiUpwork />
+          </button>
+          <button>
+            <SiFiverr />
+          </button>
+      </div>
     {/* <img src="images/IMG-20220502-WA0048.jpg"/>
     */}
     </section>

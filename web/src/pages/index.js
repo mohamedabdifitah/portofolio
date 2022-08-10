@@ -29,8 +29,9 @@ export default function Home() {
        {/*<audio className="bg-audio"   loop ref={audioEle} controls>
         <source src="/audio/bg-audio.mp3" type="audio/mpeg"/>
        </audio>
-       */}
-       <iframe src="audio/bg-audio.mp3" allow="autoplay" id="audio"></iframe>
+       
+       <img src="/images/programmer.jpg" alt=""/>
+       */}{/*<iframe src="audio/bg-audio.mp3" allow="autoplay" id="audio"></iframe>*/}
        <Intro />
        <About />
        <div className="project-ctn">
